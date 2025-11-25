@@ -1,0 +1,109 @@
+import random
+from colorama import init, Fore, Back
+from utilidades.Cuadro  import mostrar_mensaje
+from utilidades.Carga import carga
+
+
+
+# MENÚ de opciones 
+def menu_opcion():
+   menu_opcion="""           opciones disponibles
+  
+   [0] salir del menu de opciones
+   [1] operaciones matematicas
+   [2] obtencion de diametro del circulo     
+   [3] calcular interes conpuesto
+   [4] calcular 
+   [5]
+   """  
+   mostrar_mensaje(menu_opcion,Fore.MAGENTA)
+   
+   while True:
+      player = int(input("==>"))
+      if player == 0:
+       mostrar_mensaje("adios")
+       break
+      if player not in range(1,6):
+       carga()
+       mostrar_mensaje("uhh, ese numero como que no esta\nen la lista",Fore.GREEN)
+       continue
+     
+      if player == 1:
+       
+       carga("download matematicas",Fore.YELLOW)
+       matematicas()
+      elif player == 2:
+       
+       carga()
+       diametro()
+     
+     
+     
+     
+     
+  #funcion de matematicas para calcular  
+     
+def matematicas():
+  contador = 0
+  mostrar_mensaje("     que Quieres hacer     \n[0]volver ql menu de opcion\n[1]sumar\n[2]restar\n[3]multiplicar\n[4]dividir ")
+  while True:
+    try:
+    
+       mate = int(input(f"{Fore.GREEN}==>"))
+       if mate == 0:
+         carga("Volviendo al menu de opciones",Fore.YELLOW)
+         break
+       if mate not in range(1,5):
+         carga()
+         mostrar_mensaje("coloca un numero\ncorrespondiente a la lista",Fore.RED)
+       if mate == 1:
+         carga()
+         mostrar_mensaje("primer numero",Fore.YELLOW)
+         num1 = int(input("==>"))
+         carga()
+         mostrar_mensaje("segundo numero",Fore.YELLOW)
+         num2 = int(input("==>"))
+         
+         resultado = num1 + num2
+         carga("sumando",Fore.YELLOW)
+         mostrar_mensaje(f"la suma de {num1} y {num2}\nes {resultado}",Fore.GREEN)
+         break
+       
+       elif mate ==2:
+          carga()
+          mostrar_mensaje("primer numero a restar",Fore.GREEN)
+          resta = int(input(Fore.GREEN + "==>"))
+          mostrar_mensaje("segundo numero",Fore.YELLOW)
+          Resta = int(input(Fore.GREEN + "==>"))
+          resta -= Resta
+          mostrar_mensaje(f"el resultado es {resta}")
+          
+          
+       elif mate ==3:
+          carga()
+          mostrar_mensaje("primer numero a multiplicar",Fore.GREEN)
+          multiplicar = int(input(Fore.GREEN + "==>"))
+          mostrar_mensaje("segundo numero s Multiplicar",Fore.YELLOW)
+          Multiplicar = int(input(Fore.GREEN + "==>"))
+          multiplicar *= Multiplicar
+          carga("calculando")
+          mostrar_mensaje(f"el resultado es {multiplicar}")
+          
+          
+       elif mate == 4:
+          carga()
+          mostrar_mensaje("primer numero a dividir",Fore.GREEN)
+          dividir = int(input(Fore.GREEN + "==>"))
+          mostrar_mensaje("segundo numeroa dividir",Fore.YELLOW)
+          Dividir = int(input(Fore.GREEN + "==>"))
+          dividir /= Dividir
+          mostrar_mensaje(f"el resultado es {dividir}")
+          
+        
+    except ValueError:
+       mostrar_mensaje("parami que tienes que\ncolocar un numero:)")
+
+#funcion para saber o calcular el diametro
+def diametro():
+  mostrar_mensaje("hola")
+
