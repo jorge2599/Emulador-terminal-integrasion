@@ -29,11 +29,19 @@ Mi meta es que el programa evolucione hacia un asistente completo, capaz de:
 Emulador-terminal-integrasion/
 │
 ├── Matematicas/
+│   ├── 
+│   ├── 
+│   ├── 
 │   └── matematica.py
 │
 ├── chatbot/
 │   ├── Chat_bot.py
-│   └── Dialogo.py
+│   ├── Dialogo.json 
+│   └── Bot_confing.py
+│   
+├── config/
+│   ├── version.json
+│   └── confing.py
 │
 ├── interfas/
 │   ├── menu-pricipal.py

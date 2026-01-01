@@ -21,7 +21,7 @@ def menu_opcion():
    while True:
       player = int(input("==>"))
       if player == 0:
-       mostrar_mensaje("adios")
+       carga("regresando")
        break
       if player not in range(1,6):
        carga()
@@ -105,5 +105,5 @@ def matematicas():
 
 #funcion para saber o calcular el diametro
 def diametro():
-  mostrar_mensaje("hola")
+  mostrar_mensaje("")
 

@@ -53,7 +53,7 @@ def menu():
     #ejecuta la funcion del diccionario 
     elif player in opcion:opcion[player]()#llama a la funcion correspondiente
     else:
-      carga()
+      circle_loader()
         
       mostrar_mensaje("no es una opcion",Fore.RED)
       

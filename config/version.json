@@ -1,0 +1,42 @@
+{
+  "nombre": "Emulador-terminal-integrasion",
+  "version_actual": "0.10.0",
+  "estado": "en prueba",
+  "descripcion": "Proyecto personal en Python desarrollado como práctica de programación. Comenzó como un script simple en un solo archivo y evolucionó hacia una estructura modular con interfaz en terminal, validaciones robustas y persistencia de datos.",
+  "resumen_del_camino": [
+    "Inicio con un solo archivo Python y lógica básica",
+    "Implementación de menús, juegos simples y sistema de vidas",
+    "Mejoras en la interfaz de terminal con colores y bordes ASCII",
+    "Refactorización a funciones reutilizables",
+    "Separación en módulos y paquetes",
+    "Incorporación de chat básico",
+    "Persistencia de datos y validaciones avanzadas"
+  ],
+  "historial_versiones": [
+    {
+      "version": "0.1.0",
+      "nota": "Primera versión funcional con menú simple, sistema de vidas y juegos básicos en un solo archivo."
+    },
+    {
+      "version": "0.3.0",
+      "nota": "Refactorización inicial: funciones reutilizables, mejoras visuales y mensajes con más personalidad."
+    },
+    {
+      "version": "0.6.0",
+      "nota": "Separación del proyecto en múltiples archivos y carpetas, inicio de la modularidad real."
+    },
+    {
+      "version": "0.8.0",
+      "nota": "Persistencia de datos y validaciones más completas."
+    },
+    {
+      "version": "0.9.0",
+      "nota": "Proyecto estable para pruebas: interfaz pulida, mejor manejo de errores y estructura clara."
+    },
+    {
+    	  "version": "0.10.0",
+    	    "nota": "Se incorpora un sistema de configuración centralizada que permite consultar la versión del proyecto y su información general."
+    	    
+    }
+  ]
+}

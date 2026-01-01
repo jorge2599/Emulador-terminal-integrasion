@@ -1,0 +1,69 @@
+{
+  "respuesta": {
+    "hola": [
+      "Hola como estas",
+      "Hola que tal",
+      "Hola Como estas"
+    ],
+    "bien y vos": [
+      "Yo estoy genial,\nme alegra que estes\nbien",
+      "Estupendo, me alegra que\nestes bien, yo estoy estupendo \ngracias por preguntar",
+      "genial!!, me alegra que estes"
+    ],
+    "como estas": [
+      "Bien y vos",
+      "estoy genial"
+    ]
+  },
+
+  "info": "Ya veo quieres informacion\nbueno puedo activar menu,\npuedo mostrarte la hora,\nme encargo de registrar lo que haces\nademas puedo activar cualquier menu o \nfuncionalidad del programa que tu\nquieras a que no es genial :}",
+
+  "resp": [
+    "uhh no tengo respuesta para eso",
+    "no entiendo esa pregunta",
+    "no se que me quieres decir",
+    "parece que no me dieron la\nrespuesta para ese mensaje"
+  ],
+
+  "des": [
+    "Ya te vas,\nBueno no se puede evitar\nTe estare mirando"
+  ],
+
+  "inform": [
+    "que puedes hacer",
+    "que sabes hacer",
+    "de que eres capaz",
+    "cuales son tus habilidades",
+    "que funciones tienes",
+    "en que me puedes ayudar",
+    "para que sirves",
+    "que tareas puedes realizar",
+    "que sabes",
+    "que tipo de cosas puedes hacer",
+    "que tipo de trabajos puedes hacer",
+    "como me puedes ayudar",
+    "que es lo que haces",
+    "que servicios ofreces",
+    "que funciones realizas",
+    "que capacidades tienes",
+    "que cosas sabes hacer",
+    "que tipo de informacion puedes dar",
+    "que temas manejas",
+    "que conocimientos tienes"
+  ],
+
+  "dato": [
+    "cerrar",
+    "cierra",
+    "adios",
+    "salir",
+    "terminar",
+    "chau",
+    "chao",
+    "hasta luego",
+    "hasta la vista",
+    "hasta pronto",
+    "hasta la proxima",
+    "nos vemos"
+  ]
+}
