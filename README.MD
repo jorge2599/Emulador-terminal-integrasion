@@ -3,8 +3,24 @@
 Proyecto personal donde integro todas mis prácticas y conocimientos de Python en un solo sistema modular.  
 Incluye menú principal, chatbot interno, utilidades, juegos y un módulo matemático para resolver problemas usando fórmulas.
 
-## 🚀 Objetivo del Proyecto
+## 📸 Vista previa del Proyecto
 
+### Pantalla de carga
+<p align="center">
+  <img src="assets/inicio.png" alt="Vista del Emulador - Pantalla de carga" width="500">
+</p>
+
+### Elección de vida
+<p align="center">
+  <img src="assets/vida.png" alt="Vista del Emulador - Elección de vida" width="500">
+</p>
+
+### Menú principal de navegación
+<p align="center">
+  <img src="assets/Menu.png" alt="Vista del Emulador - Menú principal" width="500">
+</p>
+
+## 🚀 Objetivo del Proyecto
 Reunir todas mis prácticas de Python en un solo sistema unificado, accesible desde un menú principal.  
 El usuario puede navegar entre:
 
