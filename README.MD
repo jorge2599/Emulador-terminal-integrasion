@@ -50,6 +50,11 @@ Emulador-terminal-integrasion/
 │   ├── 
 │   └── matematica.py
 │
+├── assets/
+│   ├── inicio.png
+│   ├── vida.png
+│   └── Menu.png
+│   
 ├── chatbot/
 │   ├── Chat_bot.py
 │   ├── Dialogo.json 
