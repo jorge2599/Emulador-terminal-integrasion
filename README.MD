@@ -13,7 +13,8 @@ Incluye menú principal, chatbot interno, utilidades, juegos y un módulo matem�
 ### Elección de vida
 <p align="center">
   <img src="assets/vida.png" alt="Vista del Emulador - Elección de vida" width="500">
-</p>
+</p
+>
 
 ### Menú principal de navegación
 <p align="center">
@@ -45,10 +46,18 @@ Mi meta es que el programa evolucione hacia un asistente completo, capaz de:
 Emulador-terminal-integrasion/
 │
 ├── Matematicas/
-│   ├── 
-│   ├── 
-│   ├── 
+│   ├── Matematica_ interes_compuesto.py
+│   ├── Matematica_calculo_simple.py
+│   ├── Matemática_diametro.py
 │   └── matematica.py
+│
+│
+│
+├── assets/
+│   ├── inicio.png
+│   ├── vida.png
+│   └── Menu.png
+│
 │
 ├── chatbot/
 │   ├── Chat_bot.py
@@ -73,6 +82,13 @@ Emulador-terminal-integrasion/
 │   ├── Cuadro.py
 │   ├── Verificar_Vida.py
 │   └── Vida.py
+│
+│
+├── LICENSE
+│
+│
+├── README.MD
+│
 │
 └── main.py
 ```
