@@ -1,34 +1,16 @@
-from utilidades.Cuadro import mostrar_mensaje
 from colorama import init, Fore
 import random 
 import sys
 import time 
 from utilidades.Carga import carga, circle_animation as animation
+from utilidades.Cuadro import mostrar_mensaje
+from utilidades.calendario import *
 from datetime import datetime
-from chatbot.Bot_confing  import respuesta as res, resp, des, inform, info, dato
+from chatbot.Bot_confing  import respuesta as res, resp, des, inform, info, dato,intencion, ayuda, efecto_maquina_de_escribir
 from config.confing import json_dato_version
 
 
 
-def fecha():
-  pass
-
-
-def efecto_maquina_de_escribir(msj):
-       for char in msj:
-           sys.stdout.write(Fore.CYAN + char)
-           sys.stdout.flush()
-           time.sleep(0.05)
-       print()
-
-
-#json de las versiones del proyecto
-def control_versiones_info():
-    json_version = json_dato_version()
-    nombre =  json_version["nombre"]
-    version = json_version["version_actual"]
-    return nombre, version
-nombre, version =control_versiones_info()
 
 #logica del chatbot
 def chatbot():
@@ -38,7 +20,7 @@ def chatbot():
       
       #cierra chatbot
       if clave in dato:
-        efecto_maquina_de_escribir(des)
+        efecto_maquina_de_escribir(des, Fore.RED)
         break
 
       #conversacion
@@ -49,13 +31,18 @@ def chatbot():
 
         #informacion de capacidad
       elif clave in inform:
-        mostrar_mensaje(info, Fore.GREEN)
+        efecto_maquina_de_escribir(inform, BLUE)
 
+      elif clave in intencion:
+          respuesta = ayuda[intencion[clave]].format(
+        nombre=json_dato_version()["nombre"],
+        estado=json_dato_version()["estado"],
+        version=json_dato_version()["version_actual"],
+        descripcion=json_dato_version()["descripcion"]
+    )
 
-      elif clave == "version":
-          mostrar_mensaje(Fore.CYAN + version)
-      
-
+          efecto_maquina_de_escribir(respuesta, Fore.GREEN)
+          
         #en caso de quedar sin respuesta
       else:
         carga("analizando para entender", Fore.YELLOW, 2)

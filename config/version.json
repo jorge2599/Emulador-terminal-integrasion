@@ -37,6 +37,19 @@
     	  "version": "0.10.0",
     	    "nota": "Se incorpora un sistema de configuración centralizada que permite consultar la versión del proyecto y su información general."
     	    
+    },
+    {
+          "version": "0.10.1",
+            "nota": "se modificaron funciones y se hizo una reorganización de imports y de la estructura, separando y optimizando funciones para una apariencia más limpia"
+     },
+     {
+           "version": "0.10.2",
+            "nota": "se crearon nuevos paquetes y módulos para las modificaciones hechas anteriormente. se solucionaron errores graves provocados por la reorganización de los imports en UI_principal.py. esta reorganización provocó varios errores importantes, como funciones que se ejecutaban antes del menú sin ser llamadas, entre otros errores que fueron detectados y corregidos"
     }
+    
+    
   ]
 }
+
+
+

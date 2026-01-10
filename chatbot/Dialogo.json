@@ -1,32 +1,53 @@
 {
   "respuesta": {
     "hola": [
-      "Hola como estas",
-      "Hola que tal",
-      "Hola Como estas"
+      "Hola, ¿cómo estás?",
+      "Hola, ¿qué tal?",
+      "¡Hola! ¿Cómo estás?"
     ],
     "bien y vos": [
-      "Yo estoy genial,\nme alegra que estes\nbien",
-      "Estupendo, me alegra que\nestes bien, yo estoy estupendo \ngracias por preguntar",
-      "genial!!, me alegra que estes"
+      "Yo estoy genial,\nme alegra que estés bien.",
+      "Estupendo, me alegra que estés bien.\nYo también estoy muy bien, gracias por preguntar.",
+      "¡Genial! Me alegra que estés bien."
     ],
     "como estas": [
-      "Bien y vos",
-      "estoy genial"
+      "Bien, ¿y vos?",
+      "Estoy genial."
     ]
   },
 
-  "info": "Ya veo quieres informacion\nbueno puedo activar menu,\npuedo mostrarte la hora,\nme encargo de registrar lo que haces\nademas puedo activar cualquier menu o \nfuncionalidad del programa que tu\nquieras a que no es genial :}",
+  "intencion": {
+    "que version tienes": "version",
+    "cual es la version": "version",
+
+    "en que estado esta": "estado",
+    "esta terminado": "estado",
+
+    "como se llama": "nombre",
+    "como se llama el proyecto": "nombre",
+
+    "de que trata": "resumen",
+    "que es este proyecto": "resumen"
+  },
+
+  "ayuda": {
+    "version": "📌 La versión actual es {version}.",
+    "estado": "🧪 El proyecto está actualmente {estado}.",
+    "nombre": "📦 El proyecto se llama {nombre}.",
+    "resumen": "🛠️ {descripcion}\nEs un proyecto personal para practicar Python."
+  },
+
+  "info": "Ya veo, quieres información.\nPuedo activar el menú,\nmostrarte la hora,\nregistrar lo que haces\ny activar cualquier menú o\nfuncionalidad del programa que quieras.\n¿No es genial? 😄",
 
   "resp": [
-    "uhh no tengo respuesta para eso",
-    "no entiendo esa pregunta",
-    "no se que me quieres decir",
-    "parece que no me dieron la\nrespuesta para ese mensaje"
+    "Uhh, no tengo respuesta para eso.",
+    "No entiendo esa pregunta.",
+    "No sé qué me quieres decir.",
+    "Parece que no me dieron la respuesta para ese mensaje."
   ],
 
   "des": [
-    "Ya te vas,\nBueno no se puede evitar\nTe estare mirando"
+    "¿Ya te vas?\nBueno, no se puede evitar.\nTe estaré mirando 👀"
   ],
 
   "inform": [

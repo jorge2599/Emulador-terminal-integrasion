@@ -1,6 +1,10 @@
 import json
+from chatbot.animaciones_del_bot.animacion_escritura_bot import efecto_maquina_de_escribir
 
-with open("chatbot/Dialogo.json", "r", encoding="utf-8") as f:
+
+#respuestas cargadas del json anteriormente py
+
+with open("chatbot/Dialogo.json", "r", encoding="UTF-8") as f:
     data = json.load(f)
 
     respuesta = data["respuesta"]
@@ -9,3 +13,8 @@ with open("chatbot/Dialogo.json", "r", encoding="utf-8") as f:
     des = data["des"]
     inform = data["inform"]
     dato = data["dato"]
+    ayuda= data["ayuda"]
+    intencion = data["intencion"]
+
+
+    

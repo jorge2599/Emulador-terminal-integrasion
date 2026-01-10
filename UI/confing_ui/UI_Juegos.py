@@ -1,0 +1,2 @@
+from juegos.Adivina_el_numero import adivinanum
+from juegos.Piedra_Papel_Tijera import piedra_papel_tijera

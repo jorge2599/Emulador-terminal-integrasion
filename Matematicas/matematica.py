@@ -1,24 +1,18 @@
 import random
 from colorama import init, Fore, Back
 from utilidades.Cuadro  import mostrar_mensaje
-from utilidades.Carga import carga
+from utilidades.Carga import carga, circle_loader
+from .Matematica_interes_compuesto import interes_compuesto
+from .Menu_UI_matematica import UI_opcion
+color = "\033[38;2;4;103;119m"
+COLOR_MORADO = "\033[38;2;92;12;222m"
 
 
 
-# MENÚ de opciones 
+
 def menu_opcion():
-   menu_opcion="""           opciones disponibles
-  
-   [0] salir del menu de opciones
-   [1] operaciones matematicas
-   [2] obtencion de diametro del circulo     
-   [3] calcular interes conpuesto
-   [4] calcular 
-   [5]
-   """  
-   mostrar_mensaje(menu_opcion,Fore.MAGENTA)
-   
-   while True:
+    mostrar_mensaje(UI_opcion, COLOR_MORADO)
+    while True:
       player = int(input("==>"))
       if player == 0:
        carga("regresando")
@@ -30,22 +24,24 @@ def menu_opcion():
      
       if player == 1:
        
-       carga("download matematicas",Fore.YELLOW)
-       matematicas()
+       carga("cargado matematicas",Fore.YELLOW)
+       matematicas
       elif player == 2:
+       pass
+   
+      elif player == 3:
+         circle_loader()
+         interes_compuesto()
+          
        
-       carga()
-       diametro()
      
      
      
-     
-     
-  #funcion de matematicas para calcular  
+  #funcion de matematicas para operaciones básicas   
      
 def matematicas():
   contador = 0
-  mostrar_mensaje("     que Quieres hacer     \n[0]volver ql menu de opcion\n[1]sumar\n[2]restar\n[3]multiplicar\n[4]dividir ")
+  mostrar_mensaje()
   while True:
     try:
     
@@ -101,7 +97,7 @@ def matematicas():
           
         
     except ValueError:
-       mostrar_mensaje("parami que tienes que\ncolocar un numero:)")
+       mostrar_mensaje("para mi que tienes que\ncolocar un numero:)")
 
 #funcion para saber o calcular el diametro
 def diametro():

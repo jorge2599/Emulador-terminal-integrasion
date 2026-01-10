@@ -1,55 +1,58 @@
-# Emulador Terminal Integración
+# Emulador Terminal Integrasion
 
-Proyecto personal donde integro todas mis prácticas y conocimientos de Python en un solo sistema modular.  
-Incluye menú principal, chatbot interno, utilidades, juegos y un módulo matemático para resolver problemas usando fórmulas.
+este es mi proyecto donde meto todo lo que voy aprendiendo de python  
+arrancó como un script simple con piedra papel tijera y vidas este proyecto va evolucionando a medida que aprendo
 
-## 📸 Vista previa del Proyecto
+es una terminal con menú, juegos, matemáticas, un chatbot que todavía estoy armando y tambien es una asistente que te ayuda y proporciona informacion del proyecto ("Bueno eso estoy queriendo que haga jeje:)")
 
-### Pantalla de carga
+## capturas para que veas cómo se ve
+
+### pantalla de carga
 <p align="center">
-  <img src="assets/inicio.png" alt="Vista del Emulador - Pantalla de carga" width="500">
+  <img src="assets/inicio.png" alt="pantalla de carga" width="500">
 </p>
 
-### Elección de vida
+### elección de vida
 <p align="center">
-  <img src="assets/vida.png" alt="Vista del Emulador - Elección de vida" width="500">
-</p
->
-
-### Menú principal de navegación
-<p align="center">
-  <img src="assets/Menu.png" alt="Vista del Emulador - Menú principal" width="500">
+  <img src="assets/vida.png" alt="elección de vida" width="500">
 </p>
 
-## 🚀 Objetivo del Proyecto
-Reunir todas mis prácticas de Python en un solo sistema unificado, accesible desde un menú principal.  
-El usuario puede navegar entre:
+### menú principal
+<p align="center">
+  <img src="assets/Menu.png" alt="menú principal" width="500">
+</p>
 
-- Matemáticas (fórmulas, cálculos, herramientas)
-- Chatbot asistente
-- Juegos simples
-- Utilidades visuales y de sistema
-- Animaciones de carga
-- Comandos personalizados
-- Menús secundarios
+## qué tiene ahora
+- menú con comandos: salir, vida (tu estado), juego (juegos), opcion (funciones), chat, borra (limpia pantalla), terminal (abre otra consola)
+- vida que se guarda y tiene barra visual
+- juegos: adivina el número, piedra papel tijera
+- matemáticas: cálculo simple, diámetro, interés compuesto...
+- chatbot básico (responde saludos y cosas simples)
+- config  (version.json)
+- validaciones cuando te equivocás (mensajes claros)
+- animaciones de carga y cuadros con color
 
-Mi meta es que el programa evolucione hacia un asistente completo, capaz de:
+## cómo correrlo
+1. cloná el repo  
+   git clone https://github.com/jorge2599/Emulador-terminal-integrasion.git  
+   cd Emulador-terminal-integrasion
 
-- Guiar al usuario
-- Ejecutar funciones específicas
-- Registrar actividades
-- Controlar módulos internos
+2. instalá colorama (lo único que necesita)  
+   pip install colorama
 
-## 📂 Estructura del Proyecto
+3. dale play  
+   python main.py
 
+## estructura de carpetas
 ```
 Emulador-terminal-integrasion/
 │
 ├── Matematicas/
 │   ├── Matematica_ interes_compuesto.py
 │   ├── Matematica_calculo_simple.py
-│   ├── Matemática_diametro.py
-│   └── matematica.py
+│   ├── Matematica_diametro.py
+│   ├── matematica.py
+│   └── Menu_UI_matematica.py
 │
 │
 │
@@ -58,8 +61,11 @@ Emulador-terminal-integrasion/
 │   ├── vida.png
 │   └── Menu.png
 │
-│
+│               
 ├── chatbot/
+│   ├── animaciones_del_bot/
+│   │   ├──animacion_escritura_bot.py
+│   │      
 │   ├── Chat_bot.py
 │   ├── Dialogo.json 
 │   └── Bot_confing.py
@@ -68,15 +74,22 @@ Emulador-terminal-integrasion/
 │   ├── version.json
 │   └── confing.py
 │
-├── interfas/
-│   ├── menu-pricipal.py
-│   └── menu_lista.py
+├── UI/
+│   ├── confing_ui/
+│   │     ├── UI_Chatbot.py
+│   │     ├── UI_Juegos.py
+│   │     ├── UI_lista.py
+│   │     ├── UI_mate.py
+│   │     └── UI_utils.py
+│   ├── UI_pricipal.py
+│   └── Clave_dato_comando.py
 │
 ├── juegos/
 │   ├── Adivina_el_numero.py
 │   └── Piedra_Papel_Tijera.py
 │
 ├── utilidades/
+│   ├── calendario.py
 │   ├── Carga.py
 │   ├── Comando.py
 │   ├── Cuadro.py
@@ -93,72 +106,22 @@ Emulador-terminal-integrasion/
 └── main.py
 ```
 
-## 🧩 Módulos principales
+## Nuevas mejoras
+He implementado nuevas mejoras en el código. Optimicé los imports de la UI principal y agregué nuevos paquetes y módulos, asignando a cada uno una única responsabilidad.
+En el paquete de matemática, incorporé un nuevo módulo que se encarga exclusivamente de gestionar los menús matemáticos.
+En utilidades, añadí un módulo de fecha cuya función es organizar y registrar el orden, la fecha y la hora de ejecución de cada parte del proyecto.
+Además, creé un paquete específico para las animaciones del bot, destinado a contener únicamente las animaciones exclusivas del chatbot.
 
-### 🔹 1. Matemáticas
 
-Ejercicios y fórmulas adaptadas para que el usuario resuelva problemas desde consola.
+## próximas cosas que  voy a hacer o mejorar y agregrar 
+- mejorar el chat con más respuestas y lógica
+- Agregar un registro de usuario
+- menu de informacion basica segun el inicio de sesion
+- nuevas animaciones
+- agregar logs de lo que hacés
+- quizás un descargador de yt
+- más juegos y y funciones
+- algún día probar pygame
+- 
 
-### 🔹 2. Chatbot
-
-Asistente interno con:
-
-- Respuestas básicas
-- Animaciones de carga
-- Mensajes personalizados
-
-### 🔹 3. Interfaz (menú principal)
-
-Sistema de navegación en consola que conecta todos los módulos.
-
-### 🔹 4. Juegos
-
-- Piedra, papel o tijera
-- Adivina el número
-
-### 🔹 5. Utilidades
-
-Animaciones, cuadros, sistema de vida, verificación y comandos personalizados.
-
-## 🔧 Instalación
-
-Este proyecto solo utiliza la librería colorama para colores en la consola.  
-
-Instalarla con:
-
-```
-pip install colorama
-```
-
-## ▶️ Ejecución
-
-1. Clonar el repositorio:
-
-```
-git clone https://github.com/jorge2599/Emulador-terminal-integrasion
-```
-
-2. Entrar a la carpeta:
-
-```
-cd Emulador-terminal-integrasion
-```
-
-3. Ejecutar el programa:
-
-```
-python main.py
-```
-
-## 🛠️ Próximas mejoras
-
-- Chatbot más inteligente con diálogo contextual
-- Sistema de logs y registro
-- Más juegos
-- Módulos matemáticos avanzados
-- Menú modular estilo “plugins”
-- Limpieza y optimización del código
-
-## 👤 Autor
-
-Proyecto creado por Jorge Recalde como parte de su aprendizaje y práctica de Python
+es mi lugar para practicar, así que va cambiando cada vez que aprendo algo nuevo.

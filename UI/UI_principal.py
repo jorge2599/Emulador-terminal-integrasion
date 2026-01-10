@@ -1,17 +1,12 @@
 import random
 from colorama import init, Fore, Back
 import os
-from utilidades.Cuadro import mostrar_mensaje
-from utilidades.Carga  import carga, circle_loader
-from chatbot.Chat_bot import *
-from juegos.Adivina_el_numero import adivinanum
-from utilidades.Vida import barra, vida
-from utilidades.Verificar_Vida import validar
-from utilidades.Verificar_Vida import validar
-from juegos.Piedra_Papel_Tijera import piedra_papel_tijera
-from Matematicas.matematica import menu_opcion, matematicas, diametro
-from interfas.menu_lista import  txt, menum, despedida, men
-from utilidades.Comando import commad
+from .confing_ui.UI_lista import  txt, menum, despedida, men
+from .confing_ui.UI_Chatbot import chatbot
+from .confing_ui.UI_Juegos import piedra_papel_tijera, adivinanum
+from .confing_ui.UI_mate import menu_opcion
+from .Clave_dato_Comando import clear
+from .confing_ui.UI_utils import (mostrar_mensaje, carga, circle_loader, barra, vida, validar, commad, limpio)
 
 
 barra_vida = barra()
@@ -19,20 +14,43 @@ carga("guardando vida")
 
 
 
-def menu():
-  print(Fore.YELLOW + txt)
-  mostrar_mensaje(menum,Fore.CYAN)
-  opcion = {
+def dict_menu():
+    opcion = {
     "1": lambda: (carga("cargando juego", Fore.CYAN, 2),adivinanum(vida)),
-    "2": lambda:(carga("cargando juego", Fore.CYAN, 2), piedra_papel_tijera()),
-    "chat": lambda:(circle_loader(), chatbot()),
+    "2": lambda:(carga("cargando juego", Fore.CYAN, 2),     piedra_papel_tijera()),
     "opcion": lambda:(carga("cargando menu", Fore.CYAN, 2), menu_opcion()),
-    "terminal": lambda:(carga("cargando terminal", Fore.BLUE, 2), commad())
+     "chat": lambda:(circle_loader(), chatbot()),
+    "terminal": lambda:(carga("cargando     terminal", Fore.BLUE, 2), commad())
     
     
   }
+    return opcion
   
+opcion = dict_menu()          
+
+
+
+
+
+
+
+
+def UI_menu():
+    
+   #imprime el texto de menu
+  print(Fore.YELLOW + txt)
   
+  #Muestra el munu de opcio
+  mostrar_mensaje(menum,Fore.CYAN)
+  
+
+
+
+
+
+def menu():
+    
+  UI_menu()
   while True:
     player = input(Fore.CYAN + "=>").lower()
     if player == "vida":
@@ -46,10 +64,10 @@ def menu():
     elif player == "juegos" or player == "juego":
       carga()
       mostrar_mensaje(men,Fore.MAGENTA)
-    elif player == "borra":
-      #borra la terminal
-      os.system('cls' if os.name == 'nt' else 'clear')
-      menu()
+      
+    elif player in clear:
+      limpio()
+      UI_menu()
     #ejecuta la funcion del diccionario 
     elif player in opcion:opcion[player]()#llama a la funcion correspondiente
     else:

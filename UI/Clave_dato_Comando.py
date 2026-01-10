@@ -1,0 +1,3 @@
+clear = [
+    "borra","limpia","elimina","quita","limpia la terminal"
+    ]
