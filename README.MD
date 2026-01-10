@@ -90,6 +90,7 @@ Emulador-terminal-integrasion/
 │
 ├── utilidades/
 │   ├── calendario.py
+│   ├── limpia_terminal.py
 │   ├── Carga.py
 │   ├── Comando.py
 │   ├── Cuadro.py
