@@ -6,12 +6,14 @@ from .Matematica_interes_compuesto import interes_compuesto
 from .Menu_UI_matematica import UI_opcion
 color = "\033[38;2;4;103;119m"
 COLOR_MORADO = "\033[38;2;92;12;222m"
+Color_MENTA = "\033[1;38;2;83;196;146m"
+RESET = "\033[0m"
 
 
 
 
 def menu_opcion():
-    mostrar_mensaje(UI_opcion, COLOR_MORADO)
+    mostrar_mensaje(UI_opcion, Color_MENTA)
     while True:
       player = int(input("==>"))
       if player == 0:

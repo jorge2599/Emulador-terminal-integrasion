@@ -19,8 +19,8 @@ def dict_menu():
     "1": lambda: (carga("cargando juego", Fore.CYAN, 2),adivinanum(vida)),
     "2": lambda:(carga("cargando juego", Fore.CYAN, 2),     piedra_papel_tijera()),
     "opcion": lambda:(carga("cargando menu", Fore.CYAN, 2), menu_opcion()),
-     "chat": lambda:(circle_loader(), chatbot()),
-    "terminal": lambda:(carga("cargando     terminal", Fore.BLUE, 2), commad())
+     "chat": lambda:(circle_loader("chatbot cargando",Fore.GREEN), chatbot()),
+    "terminal": lambda:(carga("cargando terminal", Fore.BLUE, 2), commad())
     
     
   }
@@ -71,7 +71,7 @@ def menu():
     #ejecuta la funcion del diccionario 
     elif player in opcion:opcion[player]()#llama a la funcion correspondiente
     else:
-      circle_loader()
+      circle_loader(Fore.RED)
         
       mostrar_mensaje("no es una opcion",Fore.RED)
       

@@ -2,7 +2,7 @@ from colorama import init, Fore, Back
 import sys
 import time
 import itertools
-
+init(autoreset=True)
 #Función de carga 
 def carga(carga="cargando",color=Fore.GREEN, Lee = 3):
   for _ in range(Lee):
@@ -18,14 +18,14 @@ def carga(carga="cargando",color=Fore.GREEN, Lee = 3):
   
 
 
-def circle_animation(repeticiones=3, color=Fore.LIGHTMAGENTA_EX):
+def circle_animation(repeticiones=3, color=Fore.CYAN):
       positions = [
         "⡀", "⡁", "⡂", "⡃", "⡄", "⡅", "⡆", "⡇",
         "⡏", "⡟", "⡿", "⣿", "⣾", "⣽", "⣻", "⢿"
      ]
       i = 0
       while True:
-        sys.stdout.write('\r' + positions[i])
+        sys.stdout.write('\r' + color + positions[i])
         sys.stdout.flush()
         i = (i + 1) % len(positions)
         time.sleep(0.1)
@@ -38,15 +38,16 @@ def circle_animation(repeticiones=3, color=Fore.LIGHTMAGENTA_EX):
             sys.stdout.flush()
             break
 
-# Secuencia de caracteres para el círculo animado
-circle_chars = ['◜', '◜◝', '◟◞']
 
+def circle_loader(texto, color=Fore.WHITE):
+    
+   # Secuencia de caracteres para el círculo animado
+    circle_chars = ['◜', '◜◝', '◟◞']
 
-def circle_loader():
     repetitions = 10 # Número de repeticiones del ciclo
      # Ciclo infinito para la animación
     for char in itertools.cycle(circle_chars):
-        sys.stdout.write('\r'+ Fore.LIGHTRED_EX + char)
+        sys.stdout.write('\r' + f"{color}{texto}{char}")
         sys.stdout.flush()
         time.sleep(0.1)
         # Controla las repeticiones

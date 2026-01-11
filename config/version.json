@@ -1,6 +1,6 @@
 {
   "nombre": "Emulador-terminal-integrasion",
-  "version_actual": "0.10.0",
+  "version_actual": "0.10.2",
   "estado": "en prueba",
   "descripcion": "Proyecto personal en Python desarrollado como práctica de programación. Comenzó como un script simple en un solo archivo y evolucionó hacia una estructura modular con interfaz en terminal, validaciones robustas y persistencia de datos.",
   "resumen_del_camino": [

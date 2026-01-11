@@ -1,4 +1,4 @@
-from colorama import init, Fore
+from colorama import init, Fore, Style
 import random 
 import sys
 import time 
@@ -9,6 +9,8 @@ from datetime import datetime
 from chatbot.Bot_confing  import respuesta as res, resp, des, inform, info, dato,intencion, ayuda, efecto_maquina_de_escribir
 from config.confing import json_dato_version
 
+init(autoreset=True)
+
 
 
 
@@ -16,22 +18,21 @@ from config.confing import json_dato_version
 def chatbot():
   mostrar_mensaje("chatbot en desarrollo", Fore.RED)
   while True:
-      clave = input(Fore.BLUE + "==>").lower()
+      clave = input("==>").lower()
       
       #cierra chatbot
       if clave in dato:
-        efecto_maquina_de_escribir(des, Fore.RED)
+        efecto_maquina_de_escribir(des, Fore.BLUE)
         break
 
       #conversacion
       elif clave in res:
-        animation(2, Fore.MAGENTA)
-        texto = random.choice(res[clave])
-        efecto_maquina_de_escribir(texto)
+        animation(2)
+        efecto_maquina_de_escribir(random.choice(res[clave]), Fore.BLUE)
 
         #informacion de capacidad
       elif clave in inform:
-        efecto_maquina_de_escribir(inform, BLUE)
+        efecto_maquina_de_escribir(info, Fore.BLUE)
 
       elif clave in intencion:
           respuesta = ayuda[intencion[clave]].format(
@@ -41,12 +42,12 @@ def chatbot():
         descripcion=json_dato_version()["descripcion"]
     )
 
-          efecto_maquina_de_escribir(respuesta, Fore.GREEN)
+          efecto_maquina_de_escribir(respuesta, Fore.BLUE)
           
         #en caso de quedar sin respuesta
       else:
-        carga("analizando para entender", Fore.YELLOW, 2)
-        mostrar_mensaje(random.choice(resp), Fore.CYAN)
+        carga("analizando para entender")
+        efecto_maquina_de_escribir(random.choice(resp), Fore.BLUE)
   
 
 
