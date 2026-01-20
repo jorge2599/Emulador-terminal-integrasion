@@ -3,7 +3,7 @@ from colorama import init, Fore, Back
 from utilidades.Cuadro  import mostrar_mensaje
 from utilidades.Carga import carga, circle_loader
 from .Matematica_interes_compuesto import interes_compuesto
-from .Menu_UI_matematica import UI_opcion
+from .Menu_UI_matematica import UI_opcion, UI_opcion_matematica
 color = "\033[38;2;4;103;119m"
 COLOR_MORADO = "\033[38;2;92;12;222m"
 Color_MENTA = "\033[1;38;2;83;196;146m"
@@ -27,7 +27,7 @@ def menu_opcion():
       if player == 1:
        
        carga("cargado matematicas",Fore.YELLOW)
-       matematicas
+       matematicas()
       elif player == 2:
        pass
    
@@ -43,7 +43,7 @@ def menu_opcion():
      
 def matematicas():
   contador = 0
-  mostrar_mensaje()
+  mostrar_mensaje(UI_opcion_matematica, COLOR_MORADO)
   while True:
     try:
     

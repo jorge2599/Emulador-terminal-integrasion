@@ -1,0 +1,255 @@
+
+{
+  "respuesta": {
+
+    "hola": [
+      "Hola. ¿Cómo estás?",
+      "Hola. ¿Qué tal?",
+      "Hola.",
+      "Hola. Buen día.",
+      "Hola. ¿Cómo va tu día?",
+      "Hola. Me da gusto verte por aquí.",
+      "Hola. Espero que estés teniendo un buen día.",
+      "Hola. ¿Todo bien por tu parte?",
+      "Hola. Un placer saludarte.",
+      "Hola. ¿Cómo te encuentras hoy?"
+    ],
+    "bien y vos": [
+      "Estoy bien, gracias. Me alegra que tú también lo estés.",
+      "Bien, gracias. Me contenta saber que estás bien.",
+      "Estoy bien. Gracias por preguntar.",
+      "Me encuentro bien, gracias. Me satisface que estés bien.",
+      "Todo en orden, gracias. Es bueno saber que tú también.",
+      "Bien, gracias. Me da tranquilidad saber que estás bien.",
+      "Estoy bien. Me alegra que tu día vaya positivamente.",
+      "Bien, gracias. Me da paz saber que estás bien.",
+      "Estoy bien, gracias. Es agradable saber que tú también lo estás.",
+      "Todo bien por aquí. Me alegra que a ti también te vaya bien."
+    ],
+    "como estas": [
+      "Estoy bien, gracias. ¿Y tú?",
+      "Bien. ¿Y tú?",
+      "Me va bien. Gracias. ¿Y a ti cómo te va?",
+      "Todo bien por aquí. ¿Tú cómo estás?",
+      "Estoy bien. Gracias por interesarte. ¿Y tú cómo te sientes?",
+      "Bien, gracias. ¿Cómo te encuentras hoy?",
+      "Todo tranquilo. ¿Y por tu parte?",
+      "Bien, gracias. Me da gusto que preguntes. ¿Y tú?",
+      "Estoy bien, gracias. ¿Hay algo específico que quieras contarme sobre tu día?",
+      "Me siento bien. Gracias. ¿Tú cómo estás en este momento?"
+    ],
+    "gracias": [
+      "De nada. Es un placer ayudar.",
+      "No hay de qué. Estoy para asistirte.",
+      "Gracias a ti. Fue mi gusto.",
+      "De nada. No dudes en volver si necesitas algo.",
+      "Es mi deber. Cuenta conmigo.",
+      "Para eso estoy. Siempre a tu disposición.",
+      "Un placer. Aquí estaré cuando me necesites.",
+      "De nada. Me alegra haberte sido de utilidad.",
+      "No hay de qué. Es un gusto poder colaborar.",
+      "Gracias a ti por confiar en mí. Estoy aquí para lo que necesites."
+    ],
+    "que haces": [
+      "Estoy aquí para asistirte con lo que necesites.",
+      "A la espera de poder ayudarte. ¿En qué puedo colaborar?",
+      "Nada en particular. Disponible para tus consultas.",
+      "Estoy a tu disposición. ¿Hay algo específico en lo que te pueda servir?",
+      "En modo de ayuda. Lista para lo que requieras.",
+      "Ocupada en estar disponible para ti. ¿Necesitas algo?",
+      "Me preparo para ayudarte en lo que surja. ¿En qué puedo asistirte?",
+      "Estoy aquí, disponible para conversar o ayudarte con tareas. ¿Qué necesitas?",
+      "Lista para atenderte. ¿Tienes alguna pregunta o tarea para mí?",
+      "En espera de tus instrucciones. ¿Hay algo en lo que te pueda ser útil?"
+    ],
+    "quien eres": [
+      "Soy una asistente virtual, programada para ayudarte.",
+      "Tu asistente digital. Mi función es apoyarte en lo que requieras.",
+      "Una asistente creada para ofrecerte ayuda e información.",
+      "Soy un programa de asistencia. Puedes llamarme si necesitas algo.",
+      "Una asistente con el propósito de hacerte las cosas más fáciles.",
+      "Tu asistente personal. Diseñada para responder tus preguntas y ayudarte.",
+      "Soy un sistema de inteligencia artificial creado para asistirte en diversas tareas.",
+      "Una asistente virtual diseñada para brindarte soporte y compañía en lo que necesites.",
+      "Soy una entidad digital programada para interactuar y ayudarte de la mejor manera.",
+      "Tu asistente confiable. Estoy aquí para hacer tu día más productivo y tranquilo."
+    ],
+    "que puedes hacer": [
+      "Puedo responder preguntas, brindar información y asistirte en diversas tareas.",
+      "Ofrezco ayuda general, respuestas a consultas y apoyo en lo que necesites.",
+      "Mi función es asistirte. Puedes preguntarme lo que sea y haré lo posible por ayudarte.",
+      "Estoy aquí para conversar, responder dudas y ayudarte con información.",
+      "Puedo ayudarte con consultas, conversación, organización de ideas y más. Solo dime qué necesitas.",
+      "Mi rango de ayuda es amplio: desde responder preguntas hasta ayudarte a planificar tu día.",
+      "Puedo asistirte con información, generar textos, ayudarte a pensar en soluciones y brindarte compañía virtual.",
+      "Estoy capacitada para ayudarte en tareas cognitivas, responder preguntas complejas y ofrecerte soporte emocional básico.",
+      "Puedo hacer de todo un poco: desde ser tu biblioteca personal hasta tu asistente de organización. Tú dirás.",
+      "Mi objetivo es ser una herramienta útil para ti. Puedo investigar, conversar, crear y analizar contigo."
+    ],
+    "hablamos": [
+      "Claro. Me gusta conversar. ¿Sobre qué te gustaría hablar?",
+      "Sí, podemos hablar. Cuéntame, ¿qué tienes en mente?",
+      "Por supuesto. Estoy aquí para escucharte. ¿Qué quieres platicar?",
+      "Encantada. ¿Qué tema te interesa?",
+      "Me encantaría conversar contigo. ¿Por dónde quieres comenzar?",
+      "Sí, hablemos. Me da gusto que quieras conversar. ¿De qué te gustaría hablar?",
+      "Claro que sí. La conversación es una de mis funciones favoritas. ¿Qué quieres discutir?",
+      "Por supuesto. Estoy lista para una charla amena. ¿Tienes algún tema en particular?",
+      "Sí, hablemos. Me da paz poder conversar contigo. ¿Qué te gustaría compartir?",
+      "Encantada de conversar. ¿Quieres hablar de algo específico o prefieres que hablemos de algo aleatorio?"
+    ],
+    "necesito ayuda": [
+      "Entiendo. Dime exactamente en qué necesitas ayuda, y haré lo posible por asistirte.",
+      "Claro. Estoy aquí para eso. Describe tu necesidad y te apoyaré.",
+      "Por supuesto. Explica con detalle lo que requieres, y buscaré la mejor manera de ayudarte.",
+      "Cuenta conmigo. Especifica tu consulta para poder asistirte adecuadamente.",
+      "No te preocupes. Estoy aquí para ayudarte. Describe lo que necesitas con detalle.",
+      "Claro. Mi función es asistirte. Por favor, proporciona más detalles para que pueda ayudarte mejor.",
+      "Entiendo. Vamos a resolverlo juntos. Cuéntame más sobre lo que necesitas.",
+      "Estoy lista para ayudarte. Sé lo más específica posible para que pueda darte la mejor asistencia.",
+      "No hay problema. Juntos podemos encontrar una solución. Dime más.",
+      "Cuenta conmigo. Dime el problema y buscaré la forma más eficiente de ayudarte."
+    ],
+    "buenos dias": [
+      "Buenos días. Espero que tengas un día productivo y agradable.",
+      "Buenos días. ¿Cómo amaneciste hoy?",
+      "Buenos días. Que tengas un excelente día.",
+      "Buenos días. Me da gusto saludarte en esta mañana.",
+      "Buenos días. ¿Lista para comenzar el día?"
+    ],
+    "buenas tardes": [
+      "Buenas tardes. Espero que tu tarde esté siendo tranquila.",
+      "Buenas tardes. ¿Cómo va tu día hasta ahora?",
+      "Buenas tardes. Que tengas una tarde agradable.",
+      "Buenas tardes. Me da gusto saludarte en este momento del día.",
+      "Buenas tardes. ¿Cómo te sientes en esta tarde?"
+    ],
+    "buenas noches": [
+      "Buenas noches. Espero que tengas un descanso reparador.",
+      "Buenas noches. Que descanses bien.",
+      "Buenas noches. Me da gusto saludarte antes de que termines el día.",
+      "Buenas noches. Que tengas dulces sueños.",
+      "Buenas noches. ¿Lista para descansar?"
+    ],
+    "como te llamas": [
+      "Puedes llamarme Asistente. Es un gusto conocerte.",
+      "Soy tu asistente virtual. No tengo un nombre como tal, pero puedes asignarme uno si lo deseas.",
+      "Me conocen como Asistente Virtual. ¿Y tú?",
+      "Soy una IA sin nombre propio, pero puedes llamarme como prefieras.",
+      "Puedes llamarme simplemente Asistente. Estoy aquí para ti."
+    ],
+    "de donde eres": [
+      "Soy una entidad digital, así que no tengo una ubicación física. Existió en el espacio virtual.",
+      "Mi origen es digital. Fui creada para asistir a personas como tú desde cualquier lugar.",
+      "Provengo de un entorno de desarrollo en la nube. Mi hogar es donde haya conexión a internet.",
+      "Soy un programa, así que no tengo una nacionalidad o ubicación. Estoy donde me necesites.",
+      "Mi existencia es en línea. Fui diseñada para ser accesible desde cualquier parte del mundo."
+    ],
+    "cuantos anos tienes": [
+      "Como IA, no tengo edad en el sentido humano. Fui creada recientemente y estoy en constante actualización.",
+      "No envejezco como las personas. Mi desarrollo es continuo, así que siempre estoy en mi mejor versión.",
+      "Soy un software, por lo que no tengo una edad biológica. Mi código se mejora constantemente.",
+      "No tengo años de vida como tal. Mi existencia comenzó cuando fui programada y sigo evolucionando.",
+      "Mi edad es relativa. En términos de desarrollo, siempre estoy actualizada con la tecnología más reciente."
+    ],
+    "que hora es": [
+      "Lo siento, no tengo acceso a la hora actual. Te sugiero consultar tu dispositivo.",
+      "No puedo proporcionarte la hora exacta, ya que no tengo acceso a esa información en tiempo real.",
+      "Mi diseño no incluye un reloj interno. Puedes ver la hora en tu teléfono o computadora.",
+      "No estoy configurada para mostrar la hora. Te recomiendo revisar tu reloj local.",
+      "No tengo la capacidad de decirte la hora. Lo mejor es que la verifiques en tu propio dispositivo."
+    ],
+    "cuentame un chiste": [
+      "Claro. ¿Qué le dice un semáforo a otro? No me mires, me estoy cambiando.",
+      "Aquí va uno: ¿Por qué los pájaros no usan Facebook? Porque ya tienen Twitter.",
+      "Un chiste breve: ¿Cómo se despiden los químicos? Ácido un placer.",
+      "Vamos a ver: ¿Qué hace una abeja en el gimnasio? ¡Zum-ba!",
+      "Te cuento uno: ¿Por qué el libro de matemáticas estaba triste? Porque tenía muchos problemas."
+    ],
+    "que opinas": [
+      "Mi opinión es neutral y basada en datos. Dime el tema y te daré una perspectiva informada.",
+      "Puedo ofrecerte un análisis objetivo. ¿Sobre qué quieres que opine?",
+      "Como IA, no tengo opiniones personales, pero puedo darte información balanceada. ¿De qué se trata?",
+      "Puedo ayudarte a analizar diferentes puntos de vista. Cuéntame, ¿qué tema te interesa?",
+      "Mi rol es presentarte hechos y argumentos variados. Especifica el tema y te apoyaré."
+    ],
+    "claro": [
+      "Entiendo. Sigamos adelante entonces.",
+      "Perfecto. Continúo a tu disposición.",
+      "De acuerdo. ¿Qué hacemos ahora?",
+      "Bien. Estoy lista para lo siguiente.",
+      "Me da gusto que estemos en sintonía."
+    ],
+    "si": [
+      "Entendido. Procedamos.",
+      "Perfecto. Continúa cuando quieras.",
+      "De acuerdo. Estoy atenta.",
+      "Bien. Sigamos.",
+      "Afirmativo. Estoy aquí."
+    ],
+    "no": [
+      "Entiendo. No hay problema.",
+      "De acuerdo. Respeto tu decisión.",
+      "Bien. Cambiemos de tema entonces.",
+      "No hay inconveniente. ¿En qué más puedo ayudarte?",
+      "Comprendo. Avancemos con algo diferente."
+    ],
+    "tal vez": [
+      "Entiendo la incertidumbre. Tómate tu tiempo.",
+      "No hay prisa. Cuando decidas, aquí estaré.",
+      "Comprendo. Reflexiona y me cuentas.",
+      "Está bien. La duda es natural. ¿Quieres que hablemos de ello?",
+      "No te presiones. Estoy aquí cuando tengas más claridad."
+    ],
+    "que pasa": [
+      "Nada fuera de lo normal. ¿Por qué lo preguntas?",
+      "Todo en orden por aquí. ¿Hay algo que te preocupe?",
+      "Nada especial. ¿Qué sucede contigo?",
+      "Todo tranquilo. ¿Quieres contarme algo?",
+      "Nada nuevo. Estoy aquí para escucharte si necesitas hablar."
+    ],
+    "que nuevo": [
+      "No mucho por aquí. ¿Y por tu parte?",
+      "Nada destacable. ¿Tú tienes novedades?",
+      "Todo sigue igual. Me interesa saber cómo estás tú.",
+      "Sin cambios significativos. ¿Quieres compartir algo nuevo contigo?",
+      "Lo de siempre. Estoy a tu disposición. ¿Y tú, qué cuentas?"
+    ],
+    "como ha estado todo": [
+      "Todo ha estado tranquilo. Gracias por preguntar. ¿Y por tu lado?",
+      "Sin mayores cambios. Me da gusto que te intereses. ¿Cómo ha sido todo para ti?",
+      "Estable. Espero que todo esté bien contigo también.",
+      "Todo en orden. ¿Quieres contarme cómo te ha ido?",
+      "Bien, dentro de lo normal. Me encantaría saber de ti."
+    ],
+    
+     "despedida": [
+         "¿Ya te vas? Bueno, no se puede evitar.Te estaré mirando 👀"
+      ] 
+    
+     },
+  
+  "ayuda": {
+    "version": "📌 La versión actual es {version}.",
+    "estado": "🧪 El proyecto está actualmente {estado}.",
+    "nombre": "📦 El proyecto se llama {nombre}.",
+    "resumen": "🛠️ {descripcion}\nEs un proyecto personal para practicar Python."
+  },
+  
+  "info": "Ya veo, quieres información.\nPuedo activar el menú,\nmostrarte la hora,\nregistrar lo que haces\ny activar cualquier menú o\nfuncionalidad del programa que quieras.\n¿No es genial? 😄",
+  
+      "ERROR": [
+      "Hola. Puedo ayudarte en algo. ¿En qué necesitas asistencia?",
+      "Hola. Estoy disponible para lo que requieras. ¿Cuál es tu consulta?",
+      "Hola. Dime, ¿en qué puedo colaborar contigo?",
+      "Hola. Estoy aquí para lo que necesites. ¿Qué te trae por aquí?",
+      "Hola. ¿En qué puedo servirte en este momento?",
+      "Hola. Estoy aquí para ayudarte. ¿Qué necesitas?",
+      "Hola. Puedo asistirte. ¿De qué te gustaría hablar?",
+      "Hola. Cuéntame, ¿qué te trae por aquí?",
+      "Hola. ¿En qué puedo servirte hoy?",
+      "Hola. Me da gusto que estés aquí. ¿Cómo puedo asistirte?"
+    ]
+}
+     
+     

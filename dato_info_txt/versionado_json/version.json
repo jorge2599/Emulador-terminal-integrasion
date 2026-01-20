@@ -1,6 +1,6 @@
 {
   "nombre": "Emulador-terminal-integrasion",
-  "version_actual": "0.10.2",
+  "version_actual": "0.10.10",
   "estado": "en prueba",
   "descripcion": "Proyecto personal en Python desarrollado como práctica de programación. Comenzó como un script simple en un solo archivo y evolucionó hacia una estructura modular con interfaz en terminal, validaciones robustas y persistencia de datos.",
   "resumen_del_camino": [
@@ -45,7 +45,32 @@
      {
            "version": "0.10.2",
             "nota": "se crearon nuevos paquetes y módulos para las modificaciones hechas anteriormente. se solucionaron errores graves provocados por la reorganización de los imports en UI_principal.py. esta reorganización provocó varios errores importantes, como funciones que se ejecutaban antes del menú sin ser llamadas, entre otros errores que fueron detectados y corregidos"
+    },
+    {
+           "version": "0.10.3",
+            "nota": "se arreglaron errores relacionados con colores  de colorama"
+    },
+    {
+           "version": "0.10.4",
+            "nota": "reorganizacion de los datos en json, separando dialogos y claves"
+    },
+         {
+           "version": "0.10.5",
+            "nota": "se reorganizo los paquetes de matematica y juego separando logica de la UI"
+    },
+         {
+           "version": "0.10.6",
+            "nota": "se encotraron bugs despues de la reorganización de los modulos de matematica y juegos necesitando correcciones en el codigo"
+    },
+         {
+           "version": "0.10.7",
+            "nota": "se separaron las configuraciones y se reoganiso los imports"
+    },
+         {
+           "version": "0.10.10",
+            "nota": "se creo nuevas carpetas o paquetes para cada funcion o especialidad del proyecto"
     }
+    
     
     
   ]

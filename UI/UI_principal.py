@@ -1,12 +1,12 @@
 import random
 from colorama import init, Fore, Back
 import os
-from .confing_ui.UI_lista import  txt, menum, despedida, men
-from .confing_ui.UI_Chatbot import chatbot
-from .confing_ui.UI_Juegos import piedra_papel_tijera, adivinanum
-from .confing_ui.UI_mate import menu_opcion
-from .Clave_dato_Comando import clear
-from .confing_ui.UI_utils import (mostrar_mensaje, carga, circle_loader, barra, vida, validar, commad, limpio)
+from config.confing_ui.UI_lista import  txt, menum, despedida, men
+from config.confing_ui.UI_Chatbot import chatbot
+from config.confing_ui.UI_Juegos import piedra_papel_tijera, adivinanum
+from config.confing_ui.UI_mate import menu_opcion
+from config.confing_ui.json_confing_UI import clear
+from config.confing_ui.UI_utils import (mostrar_mensaje, carga, circle_loader, barra, vida, validar, commad, limpio)
 
 
 barra_vida = barra()

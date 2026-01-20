@@ -1,0 +1,57 @@
+{
+  "intencion": {
+    "que version tienes": "version",
+    "cual es la version": "version",
+
+    "en que estado esta": "estado",
+    "esta terminado": "estado",
+
+    "como se llama": "nombre",
+    "como se llama el proyecto": "nombre",
+
+    "de que trata": "resumen",
+    "que es este proyecto": "resumen"
+  },
+
+
+
+
+  "inform": [
+    "que puedes hacer",
+    "que sabes hacer",
+    "de que eres capaz",
+    "cuales son tus habilidades",
+    "que funciones tienes",
+    "en que me puedes ayudar",
+    "para que sirves",
+    "que tareas puedes realizar",
+    "que sabes",
+    "que tipo de cosas puedes hacer",
+    "que tipo de trabajos puedes hacer",
+    "como me puedes ayudar",
+    "que es lo que haces",
+    "que servicios ofreces",
+    "que funciones realizas",
+    "que capacidades tienes",
+    "que cosas sabes hacer",
+    "que tipo de informacion puedes dar",
+    "que temas manejas",
+    "que conocimientos tienes"
+  ],
+
+  "dato": [
+    "cerrar",
+    "cierra",
+    "adios",
+    "salir",
+    "terminar",
+    "chau",
+    "chao",
+    "hasta luego",
+    "hasta la vista",
+    "hasta pronto",
+    "hasta la proxima",
+    "nos vemos"
+  ]
+}
+

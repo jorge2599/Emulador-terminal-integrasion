@@ -33,15 +33,22 @@ es una terminal con menú, juegos, matemáticas, un chatbot que todavía estoy a
 - animaciones de carga y cuadros con color
 
 ## cómo correrlo
-1. cloná el repo  
+1. cloná el repo
+2.
+```
    git clone https://github.com/jorge2599/Emulador-terminal-integrasion.git  
    cd Emulador-terminal-integrasion
+```
 
 2. instalá colorama (lo único que necesita)  
+```
    pip install colorama
+```
 
 3. dale play  
+```
    python main.py
+```
 
 ## estructura de carpetas
 ```
@@ -64,25 +71,39 @@ Emulador-terminal-integrasion/
 │               
 ├── chatbot/
 │   ├── animaciones_del_bot/
-│   │   ├──animacion_escritura_bot.py
-│   │      
-│   ├── Chat_bot.py
-│   ├── Dialogo.json 
-│   └── Bot_confing.py
+│   │   └──animacion_escritura_bot.py
+│   └── Chat_bot.py
 │   
 ├── config/
-│   ├── version.json
+│   ├── chat_bot_confing/
+│   │   └── Bot_confing.py
+│   │ 
+│   ├── confing_ui/
+│   │   ├──json_confing_UI.py
+│   │   ├──UI_Chatbot.py
+│   │   ├──UI_Juegos.py
+│   │   ├──UI_lista.py
+│   │   ├──UI_mate.py
+│   │   └──UI_utils.py
+│   │   
+│   ├── Juego_config/
+│   │   └──Confing_Juego.py
 │   └── confing.py
 │
+├──dato_info_txt/
+│   ├──chat_bot_json/
+│   │   ├──clave.json
+│   │   └──Dialogo.json
+│   ├──Juego_json/
+│   │   └──Juego_Dialogo.json
+│   ├──UI_Clave_json/
+│   │   └──Clave_dato_Comando.json
+│   ├──versionado_json/
+│   └──   └──version.json
+│   
+│  
 ├── UI/
-│   ├── confing_ui/
-│   │     ├── UI_Chatbot.py
-│   │     ├── UI_Juegos.py
-│   │     ├── UI_lista.py
-│   │     ├── UI_mate.py
-│   │     └── UI_utils.py
-│   ├── UI_pricipal.py
-│   └── Clave_dato_comando.py
+│   └──UI_pricipal.py
 │
 ├── juegos/
 │   ├── Adivina_el_numero.py
@@ -112,6 +133,9 @@ He implementado nuevas mejoras en el código. Optimicé los imports de la UI pri
 En el paquete de matemática, incorporé un nuevo módulo que se encarga exclusivamente de gestionar los menús matemáticos.
 En utilidades, añadí un módulo de fecha cuya función es organizar y registrar el orden, la fecha y la hora de ejecución de cada parte del proyecto.
 Además, creé un paquete específico para las animaciones del bot, destinado a contener únicamente las animaciones exclusivas del chatbot.
+
+## mejoras que hice 18/1/26 
+He hecho algunas correcciones a bugs y algunas partes de mi codigo que faltaba eh separado cada cosa en diferentes paquetes con su respectivo nombre de a que modulo pertece pero la diferencia ahora es que estan ubicados en un solo paqueque los que tienen un solo funcionamiento, todo los encargados de configuracion estan en config, los json en dato_info_txt con un sud carpeta con el nombre para idectificar a que modulo y paquete pertenece ese json, la configuracion de UI_pricipal lo movi en config como mensione antes estan con su respectivo nombre para que sea facil de idectificar, con estas modificasiones busco centralizar todas las cosas con el mismo proposito en un solo paquete para una modificasiones mas eficientes y rapidas y una busqueda de errores mas facil
 
 
 ## próximas cosas que  voy a hacer o mejorar y agregrar 
